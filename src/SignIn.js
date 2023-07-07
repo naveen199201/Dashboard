@@ -1,8 +1,7 @@
 import React, { useState } from 'react';
-// import Dashboard from './Dashboard';
+import Dashboardcopy from './Dashboardcopy';
 import './SignIn.css';
-import Dashboardcopy from './Dashboardcopy'
-function SignIn() {
+const SignIn = () =>{
 
     const [submitted, setSubmitted] = useState(true);
 
@@ -13,8 +12,16 @@ function SignIn() {
     };
 
     return (
+        <>
+        {submitted ? (
+        <>
+        <div className="left-section">
+        <p class="title"> Board.</p>
+        </div>
+        <div className="right-section">
+  
         <div className='container-signin'>
-            {submitted ? (
+            
                 <div>
                     <h1 className="header">
                         Sign In
@@ -78,10 +85,14 @@ function SignIn() {
                         <p>Don't have an account?
                                     <a href="https://www.google.com/ ">Register here</a>
                                 </p>
-                </div>) : <Dashboardcopy />
+                </div>
+                </div>
+                </div>
+                </>) : <Dashboardcopy />
             }
+            </>
 
-        </div>
+        
     )
 }
 export default SignIn;
