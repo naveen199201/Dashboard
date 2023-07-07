@@ -44,8 +44,41 @@
     padding-left: 30px;
     text-align: left;
 }
-.child-div1{
-    background-color: aquamarine;
+.card1{
+    background-color: lightgreen;
+    border-radius: 25px;
+    margin: 5px;
+    height: 150px;
+    width: 800px;
+    padding: 5px; 
+    text-align: center;
+    align-items: center;
+    font-size:12px;
+}
+.card2{
+    background-color: antiquewhite;
+    border-radius: 25px;
+    margin: 5px;
+    height: 150px;
+    width: 800px;
+    padding: 5px; 
+    text-align: center;
+    align-items: center;
+    font-size:12px;
+}
+.card3{
+    background-color: pink;
+    border-radius: 25px;
+    margin: 5px;
+    height: 150px;
+    width: 250px;
+    padding: 5px; 
+    text-align: center;
+    align-items: center;
+    font-size:12px;
+}
+.card4{
+    background-color: lightblue;
     border-radius: 25px;
     margin: 5px;
     height: 150px;
@@ -84,8 +117,13 @@
     } */
 
 }
+.sideMenu{
+    margin:-1px 5px;
+}
 .Sidebar li{
     margin: 30px 30px;
+    display: flex;
+    flex-direction: row;
 }
 .linegraph {
     width: auto;
@@ -150,4 +188,14 @@ input{
     padding-top: 7px;
     border-radius: 5px;
     border-color: transparent;
+}
+ul{
+    text-align: start;
+    list-style: none;
+}
+alogin text{
+    fill: black;
+}
+glogin text{
+    fill: black;
 }
