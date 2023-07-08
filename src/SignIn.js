@@ -22,8 +22,8 @@ const SignIn = () => {
 
                         <div className='container-signin'>
 
-                            <div>
-                                <div className="signin-container"s>
+                            
+                                <div className="signin-container">
                                     <h2 className="signin-text">
                                         Sign In
                                     </h2>
@@ -84,11 +84,10 @@ const SignIn = () => {
 
                                         </form>
                                     </div>
-                                </div>
-                                <p>Don't have an account? 
+                                    <p className='register'>Don't have an account? 
                                     <a className='blue' href="https://www.google.com/ ">Register here</a>
                                 </p>
-                            </div>
+                                </div>
                         </div>
                     </div>
                 </>) : <Dashboard />

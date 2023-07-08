@@ -1,6 +1,6 @@
 .container-signin {
-    margin: 30vh 40vh;
-    width: 500px;
+    margin: 15% 30%;
+    width: 400px;
 
 }
 .signin-container{
@@ -10,8 +10,8 @@
 }
 .gcontainer {
     display: flex;
-    width: 20vw;
-    justify-content: space-evenly;
+    width: 100%;
+    justify-content: space-between;
 }
 
 /* .signin-container {
@@ -53,8 +53,8 @@ padding: 1px 5px;
     align-content: flex-start; */
     text-align: left;
     background-color: #fff;
-    padding: 20px;
-    width: 20vw;
+    
+    width: 100%;
     border-radius: 10px;
 }
 
@@ -65,16 +65,19 @@ padding: 1px 5px;
 }
 
 .title {
-    margin: 45vh 20vh;
+    margin: 45vh 0vh;
     font-weight: 700;
     font-size: 4.5rem;
     color: #fff;
-
+    text-align: center;
 }
 
 .right-section {
     width: 60%;
     background-color: #F5F5F5;
+    height: 100%;
+    display: flex;
+    align-items: center;
 }
 
 .blue {
@@ -104,4 +107,10 @@ padding: 1px 5px;
     margin-top: 10px;
     width: 20.3rem;
     border-color: transparent;
+}
+.form-group{
+    padding: 25px;
+}
+.register{
+    margin-left: 50px;
 }
