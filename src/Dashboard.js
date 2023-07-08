@@ -1,4 +1,4 @@
-import './Dashboardcopy.css';
+import './Dashboard.css';
 import { FaBell } from 'react-icons/fa';
 import LineGraph from './Linegraph';
 import PieChart from './Piechart';

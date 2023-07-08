@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Dashboardcopy from './Dashboardcopy';
+import Dashboard from './Dashboard';
 import './SignIn.css';
 const SignIn = () => {
 
@@ -91,7 +91,7 @@ const SignIn = () => {
                             </div>
                         </div>
                     </div>
-                </>) : <Dashboardcopy />
+                </>) : <Dashboard />
             }
         </>
 
