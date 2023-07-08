@@ -7,9 +7,6 @@ import Card from './Bcard2';
 import { FaSearch } from 'react-icons/fa';
 import Avatar from 'react-avatar';
 
-
-
-
 const Dashboard = () => {
     const events = [
         {
